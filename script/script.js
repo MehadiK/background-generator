@@ -23,6 +23,7 @@ function randomColor() {
 
   randomColorBtn.style.background = `linear-gradient(to right, ${color1.value}, ${color2.value})`;
   randomColorBtn.style.color = 'black';
+  body.style.background = `linear-gradient(to right, ${color1.value}, ${color2.value})`
 }
 
 function setGradient() {
